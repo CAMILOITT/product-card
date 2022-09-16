@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Outfit", sans-serif; }
+
+body {
+  height: 100vh;
+  background: #d6e2f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px; }
+
+.card {
+  width: clamp(200px, 70%, 300px);
+  background: white;
+  padding: 20px;
+  border-radius: 20px;
+  text-align: center; }
+  .card .card__imgQr {
+    width: 100%;
+    border-radius: 10px; }
+  .card .car__title {
+    color: #1f3251;
+    margin: 20px 0;
+    font-size: 20px; }
+  .card .card__instruction {
+    font-size: 15px;
+    color: #7b879d; }
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+  right: 0;
+  margin: auto; }
+  .attribution a {
+    color: #3e52a3;
+    font-weight: bold;
+    text-decoration: none; }
+
+/*# sourceMappingURL=style.css.map */
